@@ -1,0 +1,268 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
+
+/* ================================================================ */
+
+@media (max-width: 570px) {
+  .about-after-section::before {
+    display: none;
+  }
+  .carousel-inner {
+    height: 60vh !important;
+    padding: 20px !important;
+  }
+  .billing_top_card::before {
+    display: none !important;
+  }
+  .dth_card::before {
+    display: none !important;
+  }
+  .page-header {
+    height: 350px;
+    padding-bottom: 6rem;
+    background: linear-gradient(rgba(0, 29, 35, 0.8), rgba(0, 29, 35, 0.8)),
+      url(../img/mobile-header.jpg) center center no-repeat;
+    background-size: cover;
+  }
+}
+@media (max-width: 520px) {
+  .about-after-section::before {
+    display: none;
+  }
+  .carousel-inner {
+    height: 60vh !important;
+    padding: 20px !important;
+  }
+  .billing_top_card::before {
+    display: none !important;
+  }
+  .dth_card::before {
+    display: none !important;
+  }
+  .page-header {
+    height: 350px;
+    padding-bottom: 6rem;
+    background: linear-gradient(rgba(0, 29, 35, 0.8), rgba(0, 29, 35, 0.8)),
+      url(../img/mobile-header.jpg) center center no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 500px) {
+  .about-after-section::before {
+    display: none;
+  }
+  .carousel-inner {
+    height: 60vh !important;
+    padding: 20px !important;
+  }
+  .billing_top_card::before {
+    display: none !important;
+  }
+  .dth_card::before {
+    display: none !important;
+  }
+  .page-header {
+    height: 350px;
+    padding-bottom: 6rem;
+    background: linear-gradient(rgba(0, 29, 35, 0.8), rgba(0, 29, 35, 0.8)),
+      url(../img/mobile-header.jpg) center center no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-after-section::before {
+    display: none;
+  }
+  .carousel-inner {
+    height: 60vh !important;
+    padding: 20px !important;
+  }
+  .billing_top_card::before {
+    display: none !important;
+  }
+  .dth_card::before {
+    display: none !important;
+  }
+  .page-header {
+    height: 350px;
+    padding-bottom: 6rem;
+    background: linear-gradient(rgba(0, 29, 35, 0.8), rgba(0, 29, 35, 0.8)),
+      url(../img/mobile-header.jpg) center center no-repeat;
+    background-size: cover;
+  }
+}
+@media (max-width: 460px) {
+  .about-after-section::before {
+    display: none;
+  }
+  .carousel-inner {
+    height: 60vh !important;
+    padding: 20px !important;
+  }
+  .billing_top_card::before {
+    display: none !important;
+  }
+  .dth_card::before {
+    display: none !important;
+  }
+  .page-header {
+    height: 350px;
+    padding-bottom: 6rem;
+    background: linear-gradient(rgba(0, 29, 35, 0.8), rgba(0, 29, 35, 0.8)),
+      url(../img/mobile-header.jpg) center center no-repeat;
+    background-size: cover;
+  }
+}
+@media (max-width: 440px) {
+  .about-after-section::before {
+    display: none;
+  }
+  .carousel-inner {
+    height: 60vh !important;
+    padding: 20px !important;
+  }
+  .billing_top_card::before {
+    display: none !important;
+  }
+  .dth_card::before {
+    display: none !important;
+  }
+  .page-header {
+    height: 350px;
+    padding-bottom: 6rem;
+    background: linear-gradient(rgba(0, 29, 35, 0.8), rgba(0, 29, 35, 0.8)),
+      url(../img/mobile-header.jpg) center center no-repeat;
+    background-size: cover;
+  }
+}
+@media (max-width: 420px) {
+  .about-after-section::before {
+    display: none;
+  }
+  .carousel-inner {
+    height: 60vh !important;
+    padding: 20px !important;
+  }
+  .billing_top_card::before {
+    display: none !important;
+  }
+  .dth_card::before {
+    display: none !important;
+  }
+  .page-header {
+    height: 350px;
+    padding-bottom: 6rem;
+    background: linear-gradient(rgba(0, 29, 35, 0.8), rgba(0, 29, 35, 0.8)),
+      url(../img/mobile-header.jpg) center center no-repeat;
+    background-size: cover;
+  }
+}
+@media (max-width: 400px) {
+  .about-after-section::before {
+    display: none;
+  }
+  .carousel-inner {
+    height: 60vh !important;
+    padding: 20px !important;
+  }
+  .billing_top_card::before {
+    display: none !important;
+  }
+  .dth_card::before {
+    display: none !important;
+  }
+  .page-header {
+    height: 350px;
+    padding-bottom: 6rem;
+    background: linear-gradient(rgba(0, 29, 35, 0.8), rgba(0, 29, 35, 0.8)),
+      url(../img/mobile-header.jpg) center center no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 380px) {
+  .about-after-section::before {
+    display: none;
+  }
+  .carousel-inner {
+    height: 60vh !important;
+    padding: 20px !important;
+  }
+  .billing_top_card::before {
+    display: none !important;
+  }
+  .dth_card::before {
+    display: none !important;
+  }
+  .page-header {
+    height: 350px;
+    padding-bottom: 6rem;
+    background: linear-gradient(rgba(0, 29, 35, 0.8), rgba(0, 29, 35, 0.8)),
+      url(../img/mobile-header.jpg) center center no-repeat;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 360px) {
+  .about-after-section::before {
+    display: none;
+  }
+  .carousel-inner {
+    height: 60vh !important;
+    padding: 20px !important;
+  }
+  .billing_top_card::before {
+    display: none !important;
+  }
+  .dth_card::before {
+    display: none !important;
+  }
+  .page-header {
+    height: 350px;
+    padding-bottom: 6rem;
+    background: linear-gradient(rgba(0, 29, 35, 0.8), rgba(0, 29, 35, 0.8)),
+      url(../img/mobile-header.jpg) center center no-repeat;
+    background-size: cover;
+  }
+}
+@media (max-width: 340px) {
+  .about-after-section::before {
+    display: none;
+  }
+  .carousel-inner {
+    height: 60vh !important;
+    padding: 20px !important;
+  }
+  .billing_top_card::before {
+    display: none !important;
+  }
+  .dth_card::before {
+    display: none !important;
+  }
+  .page-header {
+    height: 350px;
+    padding-bottom: 6rem;
+    background: linear-gradient(rgba(0, 29, 35, 0.8), rgba(0, 29, 35, 0.8)),
+      url(../img/mobile-header.jpg) center center no-repeat;
+    background-size: cover;
+  }
+}

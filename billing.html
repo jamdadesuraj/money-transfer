@@ -1,0 +1,2055 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Money-Transfer</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar Start -->
+    <div
+      class="container-fluid fixed-top px-0 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="top-bar d-none d-lg-flex">
+        <p class="p-2">
+          Enable 5x faster, in-app payments for your customers with Turbo UPI.
+        </p>
+        <a href="" class="btn-top">Learn More</a>
+      </div>
+
+      <nav
+        class="navbar navbar-expand-lg py-lg-0 px-lg-5 wow fadeIn"
+        data-wow-delay="0.1s"
+      >
+        <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+          <h1 class="fw-bold text-primary m-0">
+            LO<span class="text-white">GO</span>
+          </h1>
+        </a>
+        <button
+          type="button"
+          class="navbar-toggler me-4"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="fa fa-bars text-white"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav mx-auto p-4 p-lg-0">
+            <a href="index.html" class="nav-item nav-link">Home</a>
+            <a href="about.html" class="nav-item nav-link">About Us</a>
+
+            <a href="billing.html" class="nav-item nav-link active">Banking</a>
+            <a href="help.html" class="nav-item nav-link">Help</a>
+
+            <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+          </div>
+          <div class="d-none d-lg-flex ms-2 nav-item dropdown">
+            <a
+              class="btn btn-outline-primary py-2 px-3 nav-link dropdown-toggle"
+              href=""
+              data-bs-toggle="dropdown"
+            >
+              Sign In
+              <div
+                class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2"
+              >
+                <i class="fa fa-user"></i>
+              </div>
+            </a>
+            <div class="dropdown-menu m-0">
+              <a href="edit-profile.html" class="dropdown-item">Edit Profile</a>
+              <a href="forgot-password.html" class="dropdown-item"
+                >Change Password</a
+              >
+              <a href="login.html" class="dropdown-item">Log Out</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header wow fadeIn" data-wow-delay="0.1s">
+      <div
+        class="container text-center"
+        style="
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+          height: 100%;
+          flex-direction: column;
+        "
+      >
+        <h1 class="display-6 text-white animated slideInDown mb-2">Billing</h1>
+        <nav aria-label="breadcrumb animated slideInDown">
+          <ol class="breadcrumb justify-content-center mb-0 align-items-center">
+            <li class="breadcrumb-item">
+              <a class="text-white" href="#">Home</a>
+            </li>
+
+            <li class="breadcrumb-item text-primary active" aria-current="page">
+              Billing
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- section start -->
+    <h1 class="display-6 mb-5 text-center mt-5">
+      Recharge & Pay Bills on Paytm.
+    </h1>
+    <section class="mb-5">
+      <div class="container py-5 card billing_top_card">
+        <div class="row gy-4 text-center">
+          <div class="col-lg-2 col-6">
+            <div class="operator_card">
+              <div
+                type="button"
+                class=""
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                <img
+                  src="./img/icon/0.png"
+                  alt=""
+                  srcset=""
+                  class="img-fluid"
+                />
+                <h6 class="mt-2">Prepaid Mobile</h6>
+              </div>
+            </div>
+            <!-- Button trigger modal -->
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Recharge Prepaid Mobile
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="h-100 bg-secondary p-5">
+                      <form>
+                        <div class="row g-3">
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <select
+                                name=""
+                                id=""
+                                class="form-control form-select"
+                              >
+                                <option value="">BSNL</option>
+                                <option value="">VI</option>
+                                <option value="">Jio</option>
+                                <option value="">Airtel</option>
+                                <option value="">MTNL</option>
+                              </select>
+                              <label for="">Select Mobile Operator</label>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <select
+                                name=""
+                                id=""
+                                class="form-control form-select"
+                              >
+                                <option value="">Andhra Pradesh.</option>
+                                <option value="">Assam.</option>
+                                <option value="">Himachal Pradesh</option>
+                                <option value="">Jammu & Kashmir</option>
+                                <option value="">Karnataka</option>
+                              </select>
+                              <label for="">Select Your Circle</label>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <input
+                                type="number"
+                                class="form-control bg-light border-0"
+                                id=""
+                                placeholder="Mobile No"
+                              />
+                              <label for="">Mobile No.</label>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <input
+                                type="number"
+                                class="form-control bg-light border-0"
+                                id=""
+                                placeholder="Amount"
+                              />
+                              <label for="">Amount</label>
+                            </div>
+                          </div>
+
+                          <div class="col-12">
+                            <button
+                              class="btn btn-primary px-5"
+                              style="height: 60px"
+                            >
+                              Continue
+                              <div
+                                class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2"
+                              >
+                                <i class="fa fa-arrow-right"></i>
+                              </div>
+                            </button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-6">
+            <div class="operator_card">
+              <div
+                type="button"
+                class=""
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal1"
+              >
+                <img
+                  src="./img/icon/1.png"
+                  alt=""
+                  srcset=""
+                  class="img-fluid"
+                />
+                <h6 class="mt-2">Rent Payment</h6>
+              </div>
+            </div>
+            <!-- Button trigger modal -->
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal1"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel1"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered modal-xl">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel1">
+                      Pay For Rentals
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <ul
+                      class="nav nav-pills mb-3"
+                      id="pills-tab"
+                      role="tablist"
+                    >
+                      <li class="nav-item" role="presentation">
+                        <button
+                          class="nav-link active"
+                          id="pills-home-tab"
+                          data-bs-toggle="pill"
+                          data-bs-target="#pills-home"
+                          type="button"
+                          role="tab"
+                          aria-controls="pills-home"
+                          aria-selected="true"
+                        >
+                          Society Maintenance
+                        </button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button
+                          class="nav-link"
+                          id="pills-profile-tab"
+                          data-bs-toggle="pill"
+                          data-bs-target="#pills-profile"
+                          type="button"
+                          role="tab"
+                          aria-controls="pills-profile"
+                          aria-selected="false"
+                        >
+                          Home/Shop Rent
+                        </button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button
+                          class="nav-link"
+                          id="pills-contact-tab"
+                          data-bs-toggle="pill"
+                          data-bs-target="#pills-contact"
+                          type="button"
+                          role="tab"
+                          aria-controls="pills-contact"
+                          aria-selected="false"
+                        >
+                          Broker Payment
+                        </button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button
+                          class="nav-link"
+                          id="pills-Property-tab"
+                          data-bs-toggle="pill"
+                          data-bs-target="#pills-Property"
+                          type="button"
+                          role="tab"
+                          aria-controls="pills-Property"
+                          aria-selected="false"
+                        >
+                          Property Deposit
+                        </button>
+                      </li>
+                    </ul>
+                    <div
+                      class="tab-content bg-secondary p-4"
+                      id="pills-tabContent"
+                    >
+                      <div
+                        class="tab-pane fade show active"
+                        id="pills-home"
+                        role="tabpanel"
+                        aria-labelledby="pills-home-tab"
+                      >
+                        <form>
+                          <div class="row g-3">
+                            <div class="col-12">
+                              <div class="form-floating">
+                                <input
+                                  type="number"
+                                  class="form-control bg-light border-0"
+                                  id=""
+                                  placeholder="Mobile No"
+                                />
+                                <label for="">Maintenance Amount</label>
+                              </div>
+                            </div>
+                            <div class="col-12">
+                              <div class="form-floating">
+                                <input
+                                  type="number"
+                                  class="form-control bg-light border-0"
+                                  id=""
+                                  placeholder="Amount"
+                                />
+                                <label for="">Society Name</label>
+                              </div>
+                            </div>
+
+                            <div class="col-12">
+                              <button
+                                class="btn btn-primary px-5"
+                                style="height: 60px"
+                              >
+                                Continue
+                                <div
+                                  class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2"
+                                >
+                                  <i class="fa fa-arrow-right"></i>
+                                </div>
+                              </button>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                      <div
+                        class="tab-pane fade"
+                        id="pills-profile"
+                        role="tabpanel"
+                        aria-labelledby="pills-profile-tab"
+                      >
+                        <form>
+                          <div class="row g-3">
+                            <div class="col-12">
+                              <div class="form-floating">
+                                <input
+                                  type="number"
+                                  class="form-control bg-light border-0"
+                                  id=""
+                                  placeholder="Mobile No"
+                                />
+                                <label for="">Rent Amount</label>
+                              </div>
+                            </div>
+                            <div class="col-12">
+                              <div class="form-floating">
+                                <input
+                                  type="number"
+                                  class="form-control bg-light border-0"
+                                  id=""
+                                  placeholder="Amount"
+                                />
+                                <label for="">Property Name</label>
+                              </div>
+                            </div>
+
+                            <div class="col-12">
+                              <button
+                                class="btn btn-primary px-5"
+                                style="height: 60px"
+                              >
+                                Continue
+                                <div
+                                  class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2"
+                                >
+                                  <i class="fa fa-arrow-right"></i>
+                                </div>
+                              </button>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                      <div
+                        class="tab-pane fade"
+                        id="pills-contact"
+                        role="tabpanel"
+                        aria-labelledby="pills-contact-tab"
+                      >
+                        <form>
+                          <div class="row g-3">
+                            <div class="col-12">
+                              <div class="form-floating">
+                                <input
+                                  type="number"
+                                  class="form-control bg-light border-0"
+                                  id=""
+                                  placeholder="Mobile No"
+                                />
+                                <label for="">Brokerage Amount</label>
+                              </div>
+                            </div>
+                            <div class="col-12">
+                              <div class="form-floating">
+                                <input
+                                  type="number"
+                                  class="form-control bg-light border-0"
+                                  id=""
+                                  placeholder="Amount"
+                                />
+                                <label for="">Property Name</label>
+                              </div>
+                            </div>
+
+                            <div class="col-12">
+                              <button
+                                class="btn btn-primary px-5"
+                                style="height: 60px"
+                              >
+                                Continue
+                                <div
+                                  class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2"
+                                >
+                                  <i class="fa fa-arrow-right"></i>
+                                </div>
+                              </button>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                      <div
+                        class="tab-pane fade"
+                        id="pills-Property"
+                        role="tabpanel"
+                        aria-labelledby="pills-Property-tab"
+                      >
+                        <form>
+                          <div class="row g-3">
+                            <div class="col-12">
+                              <div class="form-floating">
+                                <input
+                                  type="number"
+                                  class="form-control bg-light border-0"
+                                  id=""
+                                  placeholder="Mobile No"
+                                />
+                                <label for="">Deposit Amount</label>
+                              </div>
+                            </div>
+                            <div class="col-12">
+                              <div class="form-floating">
+                                <input
+                                  type="number"
+                                  class="form-control bg-light border-0"
+                                  id=""
+                                  placeholder="Amount"
+                                />
+                                <label for="">Property Name</label>
+                              </div>
+                            </div>
+
+                            <div class="col-12">
+                              <button
+                                class="btn btn-primary px-5"
+                                style="height: 60px"
+                              >
+                                Continue
+                                <div
+                                  class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2"
+                                >
+                                  <i class="fa fa-arrow-right"></i>
+                                </div>
+                              </button>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-6">
+            <div class="operator_card">
+              <div
+                type="button"
+                class=""
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal2"
+              >
+                <img
+                  src="./img/icon/2.png"
+                  alt=""
+                  srcset=""
+                  class="img-fluid"
+                />
+                <h6 class="mt-2">Electricity Bill</h6>
+              </div>
+            </div>
+            <!-- Button trigger modal -->
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal2"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel2"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Billers In Maharashtra
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="h-100 bg-secondary p-5">
+                      <form>
+                        <div class="row g-3">
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <select
+                                name=""
+                                id=""
+                                class="form-control form-select"
+                              >
+                                <option value="">
+                                  Adani Electricity Mumbai Limited
+                                </option>
+                                <option value="">BEST Mumbai</option>
+                                <option value="">MSEDC Mahavitaran</option>
+                                <option value="">Tata Power Mumbai</option>
+                                <option value="">Torrent Power</option>
+                              </select>
+                              <label for="">Select Biller in Maharashtra</label>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <input
+                                type="number"
+                                class="form-control bg-light border-0"
+                                id=""
+                                placeholder="Consumer Number"
+                              />
+                              <label for="">Consumer Number</label>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <input
+                                type="number"
+                                class="form-control bg-light border-0"
+                                id=""
+                                placeholder="Sub Division Code"
+                              />
+                              <label for="">Sub Division Code</label>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <input
+                                type="number"
+                                class="form-control bg-light border-0"
+                                id=""
+                                placeholder="Amount"
+                              />
+                              <label for="">Amount</label>
+                            </div>
+                          </div>
+
+                          <div class="col-12">
+                            <button
+                              class="btn btn-primary px-5"
+                              style="height: 60px"
+                            >
+                              Continue
+                              <div
+                                class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2"
+                              >
+                                <i class="fa fa-arrow-right"></i>
+                              </div>
+                            </button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-6">
+            <div class="operator_card">
+              <div
+                type="button"
+                class=""
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal3"
+              >
+                <img
+                  src="./img/icon/3.png"
+                  alt=""
+                  srcset=""
+                  class="img-fluid"
+                />
+                <h6 class="mt-2">DTH</h6>
+              </div>
+            </div>
+            <!-- Button trigger modal -->
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal3"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel3"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Select Provider
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="h-100 bg-secondary p-5">
+                      <form>
+                        <div class="row g-3">
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <select
+                                name=""
+                                id=""
+                                class="form-control form-select"
+                              >
+                                <option value="">Airtel Digital Tv</option>
+                                <option value="">Dish Tv</option>
+                                <option value="">Sun Direct</option>
+                                <option value="">Tata Play</option>
+                                <option value="">D2H</option>
+                              </select>
+                              <label for="">Select Mobile Operator</label>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <input
+                                type="number"
+                                class="form-control bg-light border-0"
+                                id=""
+                                placeholder="Mobile No"
+                              />
+                              <label for=""
+                                >Register Mobile No./Viewing Card Number</label
+                              >
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <input
+                                type="number"
+                                class="form-control bg-light border-0"
+                                id=""
+                                placeholder="Amount"
+                              />
+                              <label for="">Amount</label>
+                            </div>
+                          </div>
+
+                          <div class="col-12">
+                            <button
+                              class="btn btn-primary px-5"
+                              style="height: 60px"
+                            >
+                              Continue
+                              <div
+                                class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2"
+                              >
+                                <i class="fa fa-arrow-right"></i>
+                              </div>
+                            </button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-6">
+            <div class="operator_card">
+              <div
+                type="button"
+                class=""
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal4"
+              >
+                <img
+                  src="./img/icon/4.png"
+                  alt=""
+                  srcset=""
+                  class="img-fluid"
+                />
+                <h6 class="mt-2">Gas Cylinder</h6>
+              </div>
+            </div>
+            <!-- Button trigger modal -->
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal4"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel4"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabe4">
+                      Select Your Gas Provider
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="h-100 bg-secondary p-5">
+                      <form>
+                        <div class="row g-3">
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <select
+                                name=""
+                                id=""
+                                class="form-control form-select"
+                              >
+                                <option value="">Bharat Gas</option>
+                                <option value="">
+                                  Bharat Gas - Commercial
+                                </option>
+                                <option value="">HP Gas</option>
+                                <option value="">Indane Gas</option>
+                              </select>
+                              <label for=""> Select Your Gas Provider</label>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <input
+                                type="number"
+                                class="form-control bg-light border-0"
+                                id=""
+                                placeholder="Mobile No"
+                              />
+                              <label for="">Mobile No</label>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <input
+                                type="number"
+                                class="form-control bg-light border-0"
+                                id=""
+                                placeholder="Amount"
+                              />
+                              <label for="">Amount</label>
+                            </div>
+                          </div>
+
+                          <div class="col-12">
+                            <button
+                              class="btn btn-primary px-5"
+                              style="height: 60px"
+                            >
+                              Continue
+                              <div
+                                class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2"
+                              >
+                                <i class="fa fa-arrow-right"></i>
+                              </div>
+                            </button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-6">
+            <div class="operator_card">
+              <div
+                type="button"
+                class=""
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal5"
+              >
+                <img
+                  src="./img/icon/5.png"
+                  alt=""
+                  srcset=""
+                  class="img-fluid"
+                />
+                <h6 class="mt-2">Credit Card Bill</h6>
+              </div>
+            </div>
+            <!-- Button trigger modal -->
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal5"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel5"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel5">
+                      Add New Credit Card
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="h-100 bg-secondary p-5">
+                      <form>
+                        <div class="row g-3">
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <input
+                                type="text"
+                                class="form-control bg-light border-0"
+                                id=""
+                                placeholder="Credit Card Number"
+                              />
+                              <label for="">Credit Card Number</label>
+                            </div>
+                          </div>
+
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <input
+                                type="number"
+                                class="form-control bg-light border-0"
+                                id=""
+                                placeholder="Amount"
+                              />
+                              <label for="">Amount</label>
+                            </div>
+                          </div>
+
+                          <div class="col-12">
+                            <button
+                              class="btn btn-primary px-5"
+                              style="height: 60px"
+                            >
+                              Continue
+                              <div
+                                class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2"
+                              >
+                                <i class="fa fa-arrow-right"></i>
+                              </div>
+                            </button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-6">
+            <div class="operator_card">
+              <div
+                type="button"
+                class=""
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal6"
+              >
+                <img
+                  src="./img/icon/7.jpg"
+                  alt=""
+                  srcset=""
+                  class="img-fluid"
+                />
+                <h6 class="mt-2">Water</h6>
+              </div>
+            </div>
+            <!-- Button trigger modal -->
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal6"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel6"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel6">
+                      Billers in Maharashtra
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="h-100 bg-secondary p-5">
+                      <form>
+                        <div class="row g-3">
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <select
+                                name=""
+                                id=""
+                                class="form-control form-select"
+                              >
+                                <option value="">Gram Panchayat Wangi</option>
+                                <option value="">
+                                  Gram Panchayat Ambegaon
+                                </option>
+                                <option value="">Gram Panchayat Wagholi</option>
+                              </select>
+                              <label for=""
+                                >Select Billers in Maharashtra</label
+                              >
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <input
+                                type="number"
+                                class="form-control bg-light border-0"
+                                id=""
+                                placeholder="Water Tax No."
+                              />
+                              <label for="">Water Tax No.</label>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <input
+                                type="number"
+                                class="form-control bg-light border-0"
+                                id=""
+                                placeholder="Amount"
+                              />
+                              <label for="">Amount</label>
+                            </div>
+                          </div>
+
+                          <div class="col-12">
+                            <button
+                              class="btn btn-primary px-5"
+                              style="height: 60px"
+                            >
+                              Continue
+                              <div
+                                class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2"
+                              >
+                                <i class="fa fa-arrow-right"></i>
+                              </div>
+                            </button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-6">
+            <div class="operator_card">
+              <div
+                type="button"
+                class=""
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal7"
+              >
+                <img
+                  src="./img/icon/8.jpg"
+                  alt=""
+                  srcset=""
+                  class="img-fluid"
+                />
+                <h6 class="mt-2">Google Play</h6>
+              </div>
+            </div>
+            <!-- Button trigger modal -->
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal7"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel7"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel7">
+                      Google Play Recharge Amount
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="h-100 bg-secondary p-5">
+                      <form>
+                        <div class="row g-3">
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <input
+                                type="number"
+                                class="form-control bg-light border-0"
+                                id=""
+                                placeholder="Mobile No"
+                              />
+                              <label for="">Mobile No./Customer Id</label>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <input
+                                type="number"
+                                class="form-control bg-light border-0"
+                                id=""
+                                placeholder="Amount"
+                              />
+                              <label for="">Amount</label>
+                            </div>
+                          </div>
+
+                          <div class="col-12">
+                            <button
+                              class="btn btn-primary px-5"
+                              style="height: 60px"
+                            >
+                              Continue
+                              <div
+                                class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2"
+                              >
+                                <i class="fa fa-arrow-right"></i>
+                              </div>
+                            </button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-6">
+            <div class="operator_card">
+              <div
+                type="button"
+                class=""
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal8"
+              >
+                <img
+                  src="./img/icon/9.jpg"
+                  alt=""
+                  srcset=""
+                  class="img-fluid"
+                />
+                <h6 class="mt-2">Cable</h6>
+              </div>
+            </div>
+            <!-- Button trigger modal -->
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal8"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel8"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel8">
+                      Cable Tv Operator
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="h-100 bg-secondary p-5">
+                      <form>
+                        <div class="row g-3">
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <select
+                                name=""
+                                id=""
+                                class="form-control form-select"
+                              >
+                                <option value="">ACT TV</option>
+                                <option value="">Alka Vishwadarshan</option>
+                                <option value="">Ambiga Digital Vision</option>
+                                <option value="">Amrita Cable Network</option>
+                              </select>
+                              <label for="">Select Cable Tv Operator</label>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <input
+                                type="number"
+                                class="form-control bg-light border-0"
+                                id=""
+                                placeholder="Account No./Mobile No"
+                              />
+                              <label for=""
+                                >Account No./Mobile No / MAC ID</label
+                              >
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <input
+                                type="number"
+                                class="form-control bg-light border-0"
+                                id=""
+                                placeholder="Amount"
+                              />
+                              <label for="">Amount</label>
+                            </div>
+                          </div>
+
+                          <div class="col-12">
+                            <button
+                              class="btn btn-primary px-5"
+                              style="height: 60px"
+                            >
+                              Continue
+                              <div
+                                class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2"
+                              >
+                                <i class="fa fa-arrow-right"></i>
+                              </div>
+                            </button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-6">
+            <div class="operator_card">
+              <div
+                type="button"
+                class=""
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal9"
+              >
+                <img
+                  src="./img/icon/10.jpg"
+                  alt=""
+                  srcset=""
+                  class="img-fluid"
+                />
+                <h6 class="mt-2">Munciplity</h6>
+              </div>
+            </div>
+            <!-- Button trigger modal -->
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal9"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel9"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel9">
+                      Billers In Maharashtra
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="h-100 bg-secondary p-5">
+                      <form>
+                        <div class="row g-3">
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <select
+                                name=""
+                                id=""
+                                class="form-control form-select"
+                              >
+                                <option value="">Gram Panchayat</option>
+                                <option value="">Gram Panchayat</option>
+                                <option value="">Gram Panchayat</option>
+                                <option value="">Gram Panchayat</option>
+                                <option value="">Gram Panchayat</option>
+                              </select>
+                              <label for=""
+                                >Select Billers In Maharashtra</label
+                              >
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <input
+                                type="number"
+                                class="form-control bg-light border-0"
+                                id=""
+                                placeholder="Property Tax No"
+                              />
+                              <label for="">Property Tax No</label>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <input
+                                type="number"
+                                class="form-control bg-light border-0"
+                                id=""
+                                placeholder="Amount"
+                              />
+                              <label for="">Amount</label>
+                            </div>
+                          </div>
+
+                          <div class="col-12">
+                            <button
+                              class="btn btn-primary px-5"
+                              style="height: 60px"
+                            >
+                              Continue
+                              <div
+                                class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2"
+                              >
+                                <i class="fa fa-arrow-right"></i>
+                              </div>
+                            </button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-6">
+            <div class="operator_card">
+              <div
+                type="button"
+                class=""
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal10"
+              >
+                <img
+                  src="./img/icon/11.jpg"
+                  alt=""
+                  srcset=""
+                  class="img-fluid"
+                />
+                <h6 class="mt-2">EMI</h6>
+              </div>
+            </div>
+            <!-- Button trigger modal -->
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal10"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel10"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel10">EMI</h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="h-100 bg-secondary p-5">
+                      <form>
+                        <div class="row g-3">
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <input
+                                type="number"
+                                class="form-control bg-light border-0"
+                                id=""
+                                placeholder="Mobile No"
+                              />
+                              <label for="">Customer Id</label>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <input
+                                type="number"
+                                class="form-control bg-light border-0"
+                                id=""
+                                placeholder="Amount"
+                              />
+                              <label for="">Amount</label>
+                            </div>
+                          </div>
+
+                          <div class="col-12">
+                            <button
+                              class="btn btn-primary px-5"
+                              style="height: 60px"
+                            >
+                              Continue
+                              <div
+                                class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2"
+                              >
+                                <i class="fa fa-arrow-right"></i>
+                              </div>
+                            </button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-6">
+            <div class="operator_card">
+              <div
+                type="button"
+                class=""
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal11"
+              >
+                <img
+                  src="./img/icon/12.jpg"
+                  alt=""
+                  srcset=""
+                  class="img-fluid"
+                />
+                <h6 class="mt-2">FastTag</h6>
+              </div>
+            </div>
+            <!-- Button trigger modal -->
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal11"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel11"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel11">
+                      FastTag Recharge
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="h-100 bg-secondary p-5">
+                      <form>
+                        <div class="row g-3">
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <select
+                                name=""
+                                id=""
+                                class="form-control form-select"
+                              >
+                                <option value="">
+                                  Airtel payments Bank NETC FastTag
+                                </option>
+                                <option value="">Axis Bank FastTag</option>
+                                <option value="">Bank of Baroda FastTag</option>
+                                <option value="">HDFC Bank FastTag</option>
+                                <option value="">ICICI Bank FastTag</option>
+                              </select>
+                              <label for="">FastTag Provider Name</label>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <input
+                                type="number"
+                                class="form-control bg-light border-0"
+                                id=""
+                                placeholder="Mobile No"
+                              />
+                              <label for=""
+                                >Vehicle Registration Number / Wallet No.</label
+                              >
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <input
+                                type="number"
+                                class="form-control bg-light border-0"
+                                id=""
+                                placeholder="Amount"
+                              />
+                              <label for="">Amount</label>
+                            </div>
+                          </div>
+
+                          <div class="col-12">
+                            <button
+                              class="btn btn-primary px-5"
+                              style="height: 60px"
+                            >
+                              Continue
+                              <div
+                                class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2"
+                              >
+                                <i class="fa fa-arrow-right"></i>
+                              </div>
+                            </button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-6 offset-0 offset-lg-4">
+            <div class="operator_card">
+              <div
+                type="button"
+                class=""
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal12"
+              >
+                <img
+                  src="./img/icon/13.jpg"
+                  alt=""
+                  srcset=""
+                  class="img-fluid"
+                />
+                <h6 class="mt-2">Broadband</h6>
+              </div>
+            </div>
+            <!-- Button trigger modal -->
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal12"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel12"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel12">
+                      Billers In Maharashtra
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="h-100 bg-secondary p-5">
+                      <form>
+                        <div class="row g-3">
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <select
+                                name=""
+                                id=""
+                                class="form-control form-select"
+                              >
+                                <option value="">BSNL Broadband</option>
+                                <option value="">Airtel Broadband</option>
+                                <option value="">Alliance Broadband</option>
+                                <option value="">Excell Broadband</option>
+                              </select>
+                              <label for="">Billers In Maharashtra</label>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <input
+                                type="number"
+                                class="form-control bg-light border-0"
+                                id=""
+                                placeholder="Mobile No"
+                              />
+                              <label for="">Mobile No</label>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <input
+                                type="number"
+                                class="form-control bg-light border-0"
+                                id=""
+                                placeholder="Amount"
+                              />
+                              <label for="">Amount</label>
+                            </div>
+                          </div>
+
+                          <div class="col-12">
+                            <button
+                              class="btn btn-primary px-5"
+                              style="height: 60px"
+                            >
+                              Continue
+                              <div
+                                class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2"
+                              >
+                                <i class="fa fa-arrow-right"></i>
+                              </div>
+                            </button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-6">
+            <div class="operator_card">
+              <div
+                type="button"
+                class=""
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal13"
+              >
+                <img
+                  src="./img/icon/4.png"
+                  alt=""
+                  srcset=""
+                  class="img-fluid"
+                />
+                <h6 class="mt-2">LPG Booking</h6>
+              </div>
+            </div>
+            <!-- Button trigger modal -->
+
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="exampleModal13"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel13"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel13">
+                      Select Your Gas Provider
+                    </h5>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <div class="h-100 bg-secondary p-5">
+                      <form>
+                        <div class="row g-3">
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <select
+                                name=""
+                                id=""
+                                class="form-control form-select"
+                              >
+                                <option value="">Bharat Gas</option>
+                                <option value="">Bharat Gas-Commercial</option>
+                                <option value="">HP Gas</option>
+                                <option value="">Indane Gas</option>
+                              </select>
+                              <label for=""> Select Your Gas Provider</label>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <select
+                                name=""
+                                id=""
+                                class="form-control form-select"
+                              >
+                                <option value="">Consumer No</option>
+                                <option value="" selected>Mobile No</option>
+                                <option value="">LPG ID</option>
+                              </select>
+                              <label for="">Book Using</label>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <input
+                                type="number"
+                                class="form-control bg-light border-0"
+                                id=""
+                                placeholder="Register Contact Person"
+                              />
+                              <label for="">Register Contact Person</label>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <div class="form-floating">
+                              <input
+                                type="number"
+                                class="form-control bg-light border-0"
+                                id=""
+                                placeholder="Amount"
+                              />
+                              <label for="">Amount</label>
+                            </div>
+                          </div>
+
+                          <div class="col-12">
+                            <button
+                              class="btn btn-primary px-5"
+                              style="height: 60px"
+                            >
+                              Continue
+                              <div
+                                class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2"
+                              >
+                                <i class="fa fa-arrow-right"></i>
+                              </div>
+                            </button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section end -->
+
+    <!-- dth start -->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div class="dth_card">
+          <h1 class="display-6 mb-5 text-center">DTH Operator</h1>
+          <div class="row g-5">
+            <div class="col-lg-2 col-6 text-center">
+              <a href="">
+                <img
+                  src="img/6.jpg"
+                  alt=""
+                  srcset=""
+                  style="
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 100px;
+                    border: 1px solid #2b83ea !important;
+                  "
+                />
+                <h5 class="text-center">Tata Sky</h5></a
+              >
+            </div>
+            <div class="col-lg-2 col-6 text-center">
+              <a href="">
+                <img
+                  src="img/7.webp"
+                  alt=""
+                  srcset=""
+                  style="
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 100px;
+                    border: 1px solid #2b83ea !important;
+                  "
+                />
+                <h5 class="text-center">Dish Tv</h5></a
+              >
+            </div>
+            <div class="col-lg-2 col-6 text-center">
+              <a href="">
+                <img
+                  src="img/8.jpg"
+                  alt=""
+                  srcset=""
+                  style="
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 100px;
+                    border: 1px solid #2b83ea !important;
+                  "
+                />
+                <h5 class="text-center">Airtel Tv</h5></a
+              >
+            </div>
+            <div class="col-lg-2 col-6 text-center">
+              <a href="">
+                <img
+                  src="img/6.jpg"
+                  alt=""
+                  srcset=""
+                  style="
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 100px;
+                    border: 1px solid #2b83ea !important;
+                  "
+                />
+                <h5 class="text-center">Tata Sky</h5></a
+              >
+            </div>
+            <div class="col-lg-2 col-6 text-center">
+              <a href="">
+                <img
+                  src="img/7.webp"
+                  alt=""
+                  srcset=""
+                  style="
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 100px;
+                    border: 1px solid #2b83ea !important;
+                  "
+                />
+                <h5 class="text-center">Dish Tv</h5></a
+              >
+            </div>
+            <div class="col-lg-2 col-6 text-center">
+              <a href="">
+                <img
+                  src="img/8.jpg"
+                  alt=""
+                  srcset=""
+                  style="
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 100px;
+                    border: 1px solid #2b83ea !important;
+                  "
+                />
+                <h5 class="text-center">Airtel Tv</h5></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- dth end -->
+
+    <!-- btn start -->
+    <div class="container mb-5">
+      <div class="row">
+        <div class="col-12">
+          <div class="">
+            <h6>Download Paytm App to pay from anywhare</h6>
+            <a href="">
+              <img src="./img/app-btn/1.png" alt="" srcset="" class="img-fluid"
+            /></a>
+            <a href="">
+              <img src="./img/app-btn/2.png" alt="" srcset="" class="img-fluid"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- btn end -->
+
+    <!-- subscribe start -->
+    <div class="container wow fadeIn" data-wow-delay="0.1s">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 col-12 offset-0 offset-lg-1">
+            <div class="subscribe-section">
+              <div class="subscribe-border">
+                <h1 class="text-center">Start accepting payments right away</h1>
+                <a class="btn btn-primary py-2 px-3 me-3 mt-2" href="">
+                  View More
+                  <div
+                    class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2"
+                  >
+                    <i class="fa fa-arrow-right"></i>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- subscribe end -->
+
+    <!-- Footer Start -->
+    <div
+      class="container-fluid bg-dark text-white-50 footer pt-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-3 col-md-6">
+            <h1 class="fw-bold text-primary mb-4">
+              LO<span class="text-white">GO</span>
+            </h1>
+            <p>
+              Lorem Ipsum is simply dummy text of the and typesetting industry.
+              Lorem Ipsum is dummy text of the printing.
+            </p>
+            <div class="d-flex pt-2">
+              <a class="btn btn-square me-1" href=""
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a class="btn btn-square me-1" href=""
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="btn btn-square me-1" href=""
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a class="btn btn-square me-0" href=""
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-light mb-4">Address</h5>
+            <p>
+              <i class="fa fa-map-marker-alt me-3"></i>Brooklyn, New York,
+              United States
+            </p>
+            <p><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
+            <p><i class="fa fa-envelope me-3"></i>info@example.com</p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-light mb-4">Quick Links</h5>
+            <a class="btn btn-link" href="about.html">About Us</a>
+            <a class="btn btn-link" href="contact.html">Contact Us</a>
+            <a class="btn btn-link" href="help.html">Help & Support</a>
+            <a class="btn btn-link" href="terms.html">Terms & Condition</a>
+            <a class="btn btn-link" href="privacy.html">Privacy Policy</a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="text-light mb-4">Newsletter</h5>
+            <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+            <div class="position-relative mx-auto" style="max-width: 400px">
+              <input
+                class="form-control bg-transparent w-100 py-3 ps-4 pe-5"
+                type="text"
+                placeholder="Your email"
+              />
+              <button
+                type="button"
+                class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"
+              >
+                SignUp
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid copyright">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              &copy; <a href="#">Your Site Name</a>, All Right Reserved.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/parallax/parallax.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
